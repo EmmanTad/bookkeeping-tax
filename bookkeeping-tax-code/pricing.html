@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing & Packages | Bookkeeping and Tax Services</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Fixed monthly bookkeeping and tax packages from ₱5,000. Clear pricing for Philippine freelancers, small businesses and growing companies." name="description"/>
+  <meta content="Pricing &amp; Packages | Bookkeeping and Tax Services" property="og:title"/>
+  <meta content="Fixed monthly packages — Essentials, Growth and Scale — plus one-time tax and setup services." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+  <!-- Tailwind CSS v4 (browser build) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+@theme inline block maps CSS custom properties to Tailwind utilities
+ * (e.g. --color-primary -> bg-primary, text-primary). All colors use oklch.
+ */
+
+@theme inline {
+  --font-display: "Libre Baskerville", Georgia, "Times New Roman", serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-gold: var(--gold);
+  --color-ink: var(--ink);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* Warm paper + deep ink green */
+  --background: oklch(0.982 0.006 95);
+  --foreground: oklch(0.27 0.03 160);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.27 0.03 160);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.27 0.03 160);
+
+  /* Forest green primary */
+  --primary: oklch(0.42 0.075 160);
+  --primary-foreground: oklch(0.985 0.008 95);
+
+  /* Warm sand secondary */
+  --secondary: oklch(0.955 0.014 100);
+  --secondary-foreground: oklch(0.3 0.03 160);
+
+  --muted: oklch(0.955 0.01 100);
+  --muted-foreground: oklch(0.52 0.025 155);
+
+  /* Pale sage accent */
+  --accent: oklch(0.93 0.03 135);
+  --accent-foreground: oklch(0.3 0.04 160);
+
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(0.9 0.015 100);
+  --input: oklch(0.9 0.015 100);
+  --ring: oklch(0.42 0.075 160);
+
+  /* Soft brass accent */
+  --gold: oklch(0.72 0.09 85);
+  --ink: oklch(0.22 0.03 160);
+}
+
+.dark {
+  --background: oklch(0.2 0.02 160);
+  --foreground: oklch(0.95 0.01 95);
+  --card: oklch(0.25 0.025 160);
+  --card-foreground: oklch(0.95 0.01 95);
+  --popover: oklch(0.25 0.025 160);
+  --popover-foreground: oklch(0.95 0.01 95);
+
+  --primary: oklch(0.72 0.1 155);
+  --primary-foreground: oklch(0.2 0.03 160);
+
+  --secondary: oklch(0.3 0.02 160);
+  --secondary-foreground: oklch(0.95 0.01 95);
+
+  --muted: oklch(0.3 0.02 160);
+  --muted-foreground: oklch(0.7 0.02 150);
+
+  --accent: oklch(0.35 0.03 150);
+  --accent-foreground: oklch(0.95 0.01 95);
+
+  --destructive: oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.72 0.1 155);
+
+  --gold: oklch(0.78 0.09 85);
+  --ink: oklch(0.95 0.01 95);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-foreground);
+  }
+}
+
+@utility container-site {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 72rem;
+  padding-inline: 1.5rem;
+}
+
+@utility eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-muted-foreground);
+}
+
+/* Understated serif display scale */
+@utility h-display {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+@utility link-underline {
+  position: relative;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--color-gold);
+    text-decoration-thickness: 2px;
+  }
+}
+
+  </style>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="flex min-h-screen flex-col bg-background">
+<header id="site-header" class="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur transition-shadow duration-300">
+  <div class="container-site flex h-18 items-center justify-between gap-6 py-3">
+    <a href="index.html" class="group flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary font-display text-lg font-bold text-primary-foreground transition-transform duration-300 group-hover:rotate-6">B</span><span class="font-display text-lg font-bold leading-tight text-ink">Bookkeeping and Tax Services</span></a>
+    <nav class="hidden items-center gap-7 lg:flex">
+      <div class="relative" data-dropdown>
+        <button type="button" data-dropdown-toggle aria-expanded="false" class="flex items-center gap-1.5 text-sm font-medium text-foreground link-underline">Services <span class="text-muted-foreground transition-transform duration-200" data-caret>▾</span></button>
+        <div data-dropdown-menu class="invisible absolute left-1/2 top-full w-72 -translate-x-1/2 translate-y-2 pt-2 opacity-0 transition-all duration-200">
+          <div class="rounded-xl border border-border bg-card p-2 shadow-lg"><a href="bookkeeping-services.html" class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span class="block text-sm font-semibold text-foreground">Bookkeeping Services</span><span class="mt-0.5 block text-xs text-muted-foreground">Clean, current books — reconciled monthly, reported clearly.</span></a><a href="tax-preparation.html" class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span class="block text-sm font-semibold text-foreground">Tax Preparation &amp; Filing</span><span class="mt-0.5 block text-xs text-muted-foreground">BIR returns for professionals and businesses, filed on time, every time.</span></a><a href="payroll-services.html" class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span class="block text-sm font-semibold text-foreground">Payroll Services</span><span class="mt-0.5 block text-xs text-muted-foreground">Payslips, contributions and withholding taxes — handled end to end.</span></a><a href="business-advisory.html" class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span class="block text-sm font-semibold text-foreground">Business Advisory</span><span class="mt-0.5 block text-xs text-muted-foreground">Management reporting, tax planning and practical financial guidance.</span></a></div>
+        </div>
+      </div>
+      <a href="about.html" class="text-sm font-medium link-underline text-foreground">About</a><a href="pricing.html" class="text-sm font-medium link-underline text-primary">Pricing</a><a href="resources.html" class="text-sm font-medium link-underline text-foreground">Resources</a><a href="testimonials.html" class="text-sm font-medium link-underline text-foreground">Testimonials</a>
+      <a href="contact.html" class="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-md">Book a Consultation</a>
+    </nav>
+    <button type="button" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" class="flex h-10 w-10 items-center justify-center rounded-lg border border-border text-foreground lg:hidden">
+      <svg data-icon-open xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg data-icon-close class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div id="mobile-menu" class="grid grid-rows-[0fr] border-t border-transparent bg-background transition-all duration-300 lg:hidden">
+    <div class="overflow-hidden"><nav class="container-site flex flex-col gap-1 py-4">
+      <p class="eyebrow pt-2">Services</p><a href="bookkeeping-services.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Bookkeeping Services</a><a href="tax-preparation.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Tax Preparation &amp; Filing</a><a href="payroll-services.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Payroll Services</a><a href="business-advisory.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Business Advisory</a><p class="eyebrow pt-3">Company</p><a href="about.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">About</a><a href="pricing.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Pricing</a><a href="resources.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Resources</a><a href="testimonials.html" class="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground hover:bg-secondary">Testimonials</a>
+      <a href="contact.html" class="mt-3 rounded-full bg-primary px-5 py-3 text-center text-sm font-semibold text-primary-foreground">Book a Consultation</a>
+    </nav></div>
+  </div>
+</header>
+<main class="flex-1"><!--$--><section class="border-b border-border bg-secondary"><div class="container-site py-16 md:py-20"><p class="eyebrow animate-fade-up" style="animation-delay:0ms">Pricing &amp; packages</p><h1 class="h-display mt-3 max-w-2xl text-4xl font-bold md:text-5xl animate-fade-up" style="animation-delay:90ms">Fixed monthly fees. No surprise invoices.</h1><p class="mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground animate-fade-up" style="animation-delay:180ms">Pick the package that matches your transaction volume. Every package includes your monthly books, financial statements and the BIR filings listed.</p></div></section><section class="py-16 md:py-20"><div class="container-site grid gap-6 lg:grid-cols-3"><div class="flex flex-col rounded-2xl border bg-card p-8 shadow-sm border-border card-hover" data-reveal="" style="--d:0ms"><h2 class="font-display text-2xl font-bold text-ink" data-reveal="">Essentials</h2><p class="mt-1 text-sm text-muted-foreground">Freelancers, professionals and very small businesses</p><p class="mt-6"><span class="font-display text-4xl font-bold text-ink">₱5,000</span><span class="ml-2 text-sm text-muted-foreground">per month</span></p><ul class="mt-6 flex-1 space-y-3 text-sm"><li class="flex items-start gap-3" data-reveal="" style="--d:0ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Up to 30 transactions per month</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:80ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Monthly bank and e-wallet reconciliation</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:160ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Monthly profit &amp; loss and balance sheet</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:240ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Quarterly percentage tax (2551Q) filing</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:320ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Email and chat support</span></li></ul><a class="mt-8 rounded-full px-6 py-3 text-center text-sm font-semibold transition-colors border border-input text-foreground hover:bg-secondary" href="contact.html">Get started</a></div><div class="flex flex-col rounded-2xl border bg-card p-8 shadow-sm border-primary ring-2 ring-primary card-hover" data-reveal="" style="--d:80ms"><span class="mb-4 self-start rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">Most popular</span><h2 class="font-display text-2xl font-bold text-ink" data-reveal="">Growth</h2><p class="mt-1 text-sm text-muted-foreground">Established small businesses with regular sales</p><p class="mt-6"><span class="font-display text-4xl font-bold text-ink">₱9,000</span><span class="ml-2 text-sm text-muted-foreground">per month</span></p><ul class="mt-6 flex-1 space-y-3 text-sm"><li class="flex items-start gap-3" data-reveal="" style="--d:0ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Up to 100 transactions per month</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:80ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Everything in Essentials</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:160ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Quarterly VAT (2550Q) preparation and filing</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:240ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Payroll for up to 5 employees</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:320ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Quarterly financial review call</span></li></ul><a class="mt-8 rounded-full px-6 py-3 text-center text-sm font-semibold transition-colors bg-primary text-primary-foreground hover:bg-primary/90" href="contact.html">Get started</a></div><div class="flex flex-col rounded-2xl border bg-card p-8 shadow-sm border-border card-hover" data-reveal="" style="--d:160ms"><h2 class="font-display text-2xl font-bold text-ink" data-reveal="">Scale</h2><p class="mt-1 text-sm text-muted-foreground">Growing companies that want a full finance back office</p><p class="mt-6"><span class="font-display text-4xl font-bold text-ink">₱16,000</span><span class="ml-2 text-sm text-muted-foreground">per month</span></p><ul class="mt-6 flex-1 space-y-3 text-sm"><li class="flex items-start gap-3" data-reveal="" style="--d:0ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Up to 300 transactions per month</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:80ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Everything in Growth</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:160ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Payroll for up to 15 employees</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:240ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Annual income tax return (1701/1702) preparation</span></li><li class="flex items-start gap-3" data-reveal="" style="--d:320ms"><svg aria-hidden="true" class="lucide lucide-check mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 6 9 17l-5-5"></path></svg><span>Dedicated accountant and monthly advisory call</span></li></ul><a class="mt-8 rounded-full px-6 py-3 text-center text-sm font-semibold transition-colors border border-input text-foreground hover:bg-secondary" href="contact.html">Get started</a></div></div><p class="container-site mt-6 text-center text-sm text-muted-foreground">Prices exclude VAT where applicable. Higher volumes or special requirements? We'll quote a custom package.</p></section><section class="border-y border-border bg-secondary py-16 md:py-20"><div class="container-site max-w-3xl"><h2 class="h-display text-3xl font-bold" data-reveal="">One-time services</h2><div class="mt-8 divide-y divide-border rounded-xl border border-border bg-card card-hover"><div class="flex items-center justify-between gap-4 px-6 py-4" data-reveal="" style="--d:0ms"><span class="text-sm font-medium text-foreground">Annual income tax return preparation</span><span class="shrink-0 text-sm font-semibold text-primary">From ₱3,500</span></div><div class="flex items-center justify-between gap-4 px-6 py-4" data-reveal="" style="--d:80ms"><span class="text-sm font-medium text-foreground">Business registration &amp; BIR setup</span><span class="shrink-0 text-sm font-semibold text-primary">From ₱8,000</span></div><div class="flex items-center justify-between gap-4 px-6 py-4" data-reveal="" style="--d:160ms"><span class="text-sm font-medium text-foreground">Catch-up bookkeeping (per backlog month)</span><span class="shrink-0 text-sm font-semibold text-primary">From ₱6,000</span></div><div class="flex items-center justify-between gap-4 px-6 py-4" data-reveal="" style="--d:240ms"><span class="text-sm font-medium text-foreground">Audit support &amp; financial statement preparation</span><span class="shrink-0 text-sm font-semibold text-primary">Custom quote</span></div></div></div></section><section class="border-t border-border bg-primary"><div class="container-site flex flex-col items-start gap-6 py-16 md:flex-row md:items-center md:justify-between"><div><h2 class="font-display text-3xl font-bold text-primary-foreground md:text-4xl" data-reveal="">Not sure which package fits?</h2><p class="mt-3 max-w-xl text-primary-foreground/80">Book a free consultation. We'll review your current setup, answer your questions, and give you a clear fixed quote — no obligation.</p></div><a class="shrink-0 rounded-full bg-primary-foreground px-7 py-3.5 text-sm font-semibold text-primary transition-colors hover:bg-secondary" href="contact.html">Book a free consultation</a></div></section><script>(function(a,f){let l;try{l=JSON.parse(sessionStorage.getItem(a)||"{}")}catch{return}const n=l?.[f||history.state?.__TSR_key];let c=!1;for(const t in n){const e=n[t],o=e?.scrollX,s=e?.scrollY;if(Number.isFinite(o)&&Number.isFinite(s)){if(t==="window")scrollTo(o,s),c=!0;else if(t)try{const r=document.querySelector(t);r&&(r.scrollLeft=o,r.scrollTop=s)}catch{}}}if(c)return;const i=location.hash.slice(1);if(i){const t=history.state?.__hashScrollIntoViewOptions??!0;if(t){const e=document.getElementById(i);e&&e.scrollIntoView(t)}return}scrollTo(0,0)})("tsr-scroll-restoration-v1_3");document.currentScript.remove()</script><!--/$--></main>
+<footer class="border-t border-border bg-secondary" data-tsd-source="/src/components/site-footer.tsx:16:5"><div class="container-site grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4"><div><div class="flex items-center gap-3"><span class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary font-display text-lg font-bold text-primary-foreground">B</span><span class="font-display text-base font-bold leading-tight text-ink">Bookkeeping and Tax Services</span></div><p class="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">CPA-led bookkeeping, tax, payroll and advisory services for Philippine businesses and professionals.</p></div><div><h3 class="text-sm font-semibold uppercase tracking-wider text-ink">Services</h3><ul class="mt-4 space-y-2.5"><li><a class="text-sm text-muted-foreground link-underline" href="bookkeeping-services.html">Bookkeeping Services</a></li><li><a class="text-sm text-muted-foreground link-underline" href="tax-preparation.html">Tax Preparation &amp; Filing</a></li><li><a class="text-sm text-muted-foreground link-underline" href="payroll-services.html">Payroll Services</a></li><li><a class="text-sm text-muted-foreground link-underline" href="business-advisory.html">Business Advisory</a></li></ul></div><div><h3 class="text-sm font-semibold uppercase tracking-wider text-ink">Company</h3><ul class="mt-4 space-y-2.5"><li><a class="text-sm text-muted-foreground link-underline" href="about.html">About Us</a></li><li><a aria-current="page" class="text-sm text-muted-foreground link-underline active" data-status="active" href="pricing.html">Pricing &amp; Packages</a></li><li><a class="text-sm text-muted-foreground link-underline" href="resources.html">Resources &amp; Tax Calendar</a></li><li><a class="text-sm text-muted-foreground link-underline" href="testimonials.html">Testimonials</a></li><li><a class="text-sm text-muted-foreground link-underline" href="contact.html">Contact / Book a Consultation</a></li></ul></div><div><h3 class="text-sm font-semibold uppercase tracking-wider text-ink">Get in touch</h3><ul class="mt-4 space-y-3 text-sm text-muted-foreground"><li class="flex items-start gap-2.5"><svg aria-hidden="true" class="lucide lucide-map-pin mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Unit 1204, Pacific Star Building, Makati Avenue, Makati City, Metro Manila</span></li><li class="flex items-start gap-2.5"><svg aria-hidden="true" class="lucide lucide-phone mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg><span>(02) 8123-4567<!-- --> · <!-- -->+63 917 123 4567</span></li><li class="flex items-start gap-2.5"><svg aria-hidden="true" class="lucide lucide-mail mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect height="16" rx="2" width="20" x="2" y="4"></rect></svg><span>hello@bookkeepingandtaxservices.ph</span></li><li class="flex items-start gap-2.5"><svg aria-hidden="true" class="lucide lucide-clock mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg><span>Monday to Friday, 9:00 AM – 6:00 PM</span></li></ul></div></div><div class="border-t border-border"><div class="container-site flex flex-col gap-2 py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between"><p>© 2026 Bookkeeping and Tax Services. All rights reserved.</p><p>Information on this site is for general guidance only and is not a substitute for professional advice on your specific situation.</p></div></div></footer>
+</div>
+<button id="back-to-top" aria-label="Back to top" class="fixed bottom-6 right-6 z-40 flex h-11 w-11 translate-y-4 items-center justify-center rounded-full bg-primary text-primary-foreground opacity-0 shadow-lg transition-all duration-300 pointer-events-none">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
