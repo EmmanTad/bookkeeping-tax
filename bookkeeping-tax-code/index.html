@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bookkeeping and Tax Services — Clear books, on-time BIR filings</title>
+  <title>AC Ledger Solutions — Clear books, on-time tax filings</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta
-    content="CPA-led bookkeeping, tax preparation, payroll and business advisory for Philippine businesses and professionals. Fixed monthly fees, on-time BIR filings."
+    content="Bookkeeping, tax preparation, payroll and business advisory for small businesses and professionals. Fixed monthly fees, on-time tax filings."
     name="description" />
-  <meta content="Bookkeeping and Tax Services — Clear books, on-time BIR filings" property="og:title" />
+  <meta content="AC Ledger Solutions — Clear books, on-time tax filings" property="og:title" />
   <meta
-    content="Bookkeeping, tax preparation, payroll and advisory services for Philippine businesses. Fixed fees, deadlines we never miss."
+    content="Bookkeeping, tax preparation, payroll and advisory services for businesses. Fixed fees, deadlines we never miss."
     property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="summary_large_image" name="twitter:card" />
@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap">
   <!-- Tailwind CSS v4 (browser build) -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style type="text/tailwindcss">
@@ -30,7 +30,7 @@
  */
 
 @theme inline {
-  --font-display: "Libre Baskerville", Georgia, "Times New Roman", serif;
+  --font-display: "Rajdhani", "Arial Narrow", Arial, sans-serif;
   --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
 
   --radius-sm: calc(var(--radius) - 4px);
@@ -68,69 +68,69 @@
   --radius: 0.625rem;
 
   /* Warm paper + deep ink green */
-  --background: oklch(0.982 0.006 95);
-  --foreground: oklch(0.27 0.03 160);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.27 0.03 160);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.27 0.03 160);
+  --background: #f6f7fb;
+  --foreground: #1f2342;
+  --card: #ffffff;
+  --card-foreground: #1f2342;
+  --popover: #ffffff;
+  --popover-foreground: #1f2342;
 
   /* Forest green primary */
-  --primary: oklch(0.42 0.075 160);
-  --primary-foreground: oklch(0.985 0.008 95);
+  --primary: #1f2342;
+  --primary-foreground: #ffffff;
 
   /* Warm sand secondary */
-  --secondary: oklch(0.955 0.014 100);
-  --secondary-foreground: oklch(0.3 0.03 160);
+  --secondary: #eceff8;
+  --secondary-foreground: #1f2342;
 
-  --muted: oklch(0.955 0.01 100);
-  --muted-foreground: oklch(0.52 0.025 155);
+  --muted: #eceff8;
+  --muted-foreground: #5b6280;
 
   /* Pale sage accent */
-  --accent: oklch(0.93 0.03 135);
-  --accent-foreground: oklch(0.3 0.04 160);
+  --accent: #dfe7fc;
+  --accent-foreground: #1f2342;
 
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0 0);
 
-  --border: oklch(0.9 0.015 100);
-  --input: oklch(0.9 0.015 100);
-  --ring: oklch(0.42 0.075 160);
+  --border: #dde1ee;
+  --input: #dde1ee;
+  --ring: #5a7fe8;
 
   /* Soft brass accent */
-  --gold: oklch(0.72 0.09 85);
-  --ink: oklch(0.22 0.03 160);
+  --gold: #5a7fe8;
+  --ink: #1f2342;
 }
 
 .dark {
-  --background: oklch(0.2 0.02 160);
-  --foreground: oklch(0.95 0.01 95);
-  --card: oklch(0.25 0.025 160);
-  --card-foreground: oklch(0.95 0.01 95);
-  --popover: oklch(0.25 0.025 160);
-  --popover-foreground: oklch(0.95 0.01 95);
+  --background: #1f2342;
+  --foreground: #f3f5fb;
+  --card: #272c52;
+  --card-foreground: #f3f5fb;
+  --popover: #272c52;
+  --popover-foreground: #f3f5fb;
 
-  --primary: oklch(0.72 0.1 155);
-  --primary-foreground: oklch(0.2 0.03 160);
+  --primary: #5a7fe8;
+  --primary-foreground: #ffffff;
 
-  --secondary: oklch(0.3 0.02 160);
-  --secondary-foreground: oklch(0.95 0.01 95);
+  --secondary: #2d335f;
+  --secondary-foreground: #f3f5fb;
 
-  --muted: oklch(0.3 0.02 160);
-  --muted-foreground: oklch(0.7 0.02 150);
+  --muted: #2d335f;
+  --muted-foreground: #b4bad0;
 
-  --accent: oklch(0.35 0.03 150);
-  --accent-foreground: oklch(0.95 0.01 95);
+  --accent: #323a6e;
+  --accent-foreground: #f3f5fb;
 
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.98 0 0);
 
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.72 0.1 155);
+  --ring: #5a7fe8;
 
-  --gold: oklch(0.78 0.09 85);
-  --ink: oklch(0.95 0.01 95);
+  --gold: #a3a8b5;
+  --ink: #f3f5fb;
 }
 
 @layer base {
@@ -194,9 +194,8 @@
     <header id="site-header"
       class="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur transition-shadow duration-300">
       <div class="container-site flex h-18 items-center justify-between gap-6 py-3">
-        <a href="index.html" class="group flex items-center gap-3"><span
-            class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary font-display text-lg font-bold text-primary-foreground transition-transform duration-300 group-hover:rotate-6">B</span><span
-            class="font-display text-lg font-bold leading-tight text-ink">Bookkeeping and Tax Services</span></a>
+        <a href="index.html" class="group flex items-center gap-3"><span class="flex h-10 items-center justify-center rounded-lg bg-[#1f2342] px-2 transition-transform duration-300 group-hover:rotate-3"><img src="img/logo-mark.png" alt="" class="h-6 w-auto"></span><span
+            class="font-display text-lg font-bold leading-tight text-ink">AC Ledger Solutions</span></a>
         <nav class="hidden items-center gap-7 lg:flex">
           <div class="relative" data-dropdown>
             <button type="button" data-dropdown-toggle aria-expanded="false"
@@ -211,12 +210,10 @@
                     reported clearly.</span></a><a href="tax-preparation.html"
                   class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span
                     class="block text-sm font-semibold text-foreground">Tax Preparation &amp; Filing</span><span
-                    class="mt-0.5 block text-xs text-muted-foreground">BIR returns for professionals and businesses,
-                    filed on time, every time.</span></a><a href="payroll-services.html"
+                    class="mt-0.5 block text-xs text-muted-foreground">Tax returns for professionals and businesses, filed on time, every time.</span></a><a href="payroll-services.html"
                   class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span
                     class="block text-sm font-semibold text-foreground">Payroll Services</span><span
-                    class="mt-0.5 block text-xs text-muted-foreground">Payslips, contributions and withholding taxes —
-                    handled end to end.</span></a><a href="business-advisory.html"
+                    class="mt-0.5 block text-xs text-muted-foreground">Pay stubs, payroll taxes and year-end forms — handled end to end.</span></a><a href="business-advisory.html"
                   class="block rounded-lg px-3 py-2.5 transition-colors hover:bg-secondary"><span
                     class="block text-sm font-semibold text-foreground">Business Advisory</span><span
                     class="mt-0.5 block text-xs text-muted-foreground">Management reporting, tax planning and practical
@@ -279,31 +276,14 @@
             <h1 class="h-display mt-4 text-4xl font-bold md:text-5xl lg:text-[3.4rem] animate-fade-up"
               style="animation-delay:90ms">Clear books. On-time taxes. A calmer business.</h1>
             <p class="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground animate-fade-up"
-              style="animation-delay:180ms">We keep your books clean and your BIR filings on time, so you can focus on
+              style="animation-delay:180ms">We keep your books clean and your tax filings on time, so you can focus on
               running your business — not chasing receipts.</p>
             <div class="mt-8 flex flex-wrap gap-4 animate-fade-up" style="animation-delay:270ms"><a
                 class="rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 animate-fade-up"
                 href="contact.html" style="animation-delay:360ms">Book a free consultation</a><a
                 class="rounded-full border border-input bg-background px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-accent animate-fade-up"
-                href="pricing.html" style="animation-delay:450ms">View packages</a></div>
-            <dl class="mt-12 grid grid-cols-2 gap-6 border-t border-border pt-8 sm:grid-cols-4">
-              <div>
-                <dt class="font-display text-2xl font-bold text-primary">120+</dt>
-                <dd class="mt-1 text-xs leading-snug text-muted-foreground">businesses served</dd>
-              </div>
-              <div>
-                <dt class="font-display text-2xl font-bold text-primary">15+</dt>
-                <dd class="mt-1 text-xs leading-snug text-muted-foreground">years combined experience</dd>
-              </div>
-              <div>
-                <dt class="font-display text-2xl font-bold text-primary">100%</dt>
-                <dd class="mt-1 text-xs leading-snug text-muted-foreground">on-time filing record</dd>
-              </div>
-              <div>
-                <dt class="font-display text-2xl font-bold text-primary">&lt;24 hrs</dt>
-                <dd class="mt-1 text-xs leading-snug text-muted-foreground">typical response time</dd>
-              </div>
-            </dl>
+                href="pricing.html" style="animation-delay:450ms">See pricing</a></div>
+            
           </div>
           <div class="overflow-hidden rounded-2xl border border-border shadow-sm"><img
               alt="A tidy, minimalist accounting workspace with ledgers and a calculator"
@@ -315,104 +295,12 @@
         <div class="container-site">
           <div class="max-w-2xl">
             <p class="eyebrow">What we do</p>
-            <h2 class="h-display mt-2 text-3xl font-bold md:text-4xl" data-reveal="">Four services, one steady hand on
+            <h2 class="h-display mt-2 text-3xl font-bold md:text-4xl" data-reveal="">Eleven services, one steady hand on
               your numbers</h2>
             <p class="mt-4 text-muted-foreground">Whether you need a full finance back office or just someone reliable
               to file your taxes, start with one service and grow from there.</p>
           </div>
-          <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"><a
-              class="group flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover"
-              data-reveal="" href="bookkeeping-services.html" style="--d:0ms"><span
-                class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg
-                  aria-hidden="true" class="lucide lucide-book-open" fill="none" height="22" stroke="currentColor"
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 7v14"></path>
-                  <path
-                    d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
-                  </path>
-                </svg></span>
-              <h3 class="mt-4 font-display text-lg font-bold text-ink">Bookkeeping Services</h3>
-              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Clean, current books — reconciled
-                monthly, reported clearly.</p><span
-                class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">Learn more<svg
-                  aria-hidden="true" class="lucide lucide-arrow-right transition-transform group-hover:translate-x-1"
-                  fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="m12 5 7 7-7 7"></path>
-                </svg></span>
-            </a><a
-              class="group flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover"
-              data-reveal="" href="tax-preparation.html" style="--d:80ms"><span
-                class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg
-                  aria-hidden="true" class="lucide lucide-file-text" fill="none" height="22" stroke="currentColor"
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z">
-                  </path>
-                  <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
-                  <path d="M10 9H8"></path>
-                  <path d="M16 13H8"></path>
-                  <path d="M16 17H8"></path>
-                </svg></span>
-              <h3 class="mt-4 font-display text-lg font-bold text-ink">Tax Preparation &amp; Filing</h3>
-              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">BIR returns for professionals and
-                businesses, filed on time, every time.</p><span
-                class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">Learn more<svg
-                  aria-hidden="true" class="lucide lucide-arrow-right transition-transform group-hover:translate-x-1"
-                  fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="m12 5 7 7-7 7"></path>
-                </svg></span>
-            </a><a
-              class="group flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover"
-              data-reveal="" href="payroll-services.html" style="--d:160ms"><span
-                class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg
-                  aria-hidden="true" class="lucide lucide-users" fill="none" height="22" stroke="currentColor"
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                  <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
-                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                </svg></span>
-              <h3 class="mt-4 font-display text-lg font-bold text-ink">Payroll Services</h3>
-              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Payslips, contributions and
-                withholding taxes — handled end to end.</p><span
-                class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">Learn more<svg
-                  aria-hidden="true" class="lucide lucide-arrow-right transition-transform group-hover:translate-x-1"
-                  fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="m12 5 7 7-7 7"></path>
-                </svg></span>
-            </a><a
-              class="group flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover"
-              data-reveal="" href="business-advisory.html" style="--d:240ms"><span
-                class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg
-                  aria-hidden="true" class="lucide lucide-lightbulb" fill="none" height="22" stroke="currentColor"
-                  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5">
-                  </path>
-                  <path d="M9 18h6"></path>
-                  <path d="M10 22h4"></path>
-                </svg></span>
-              <h3 class="mt-4 font-display text-lg font-bold text-ink">Business Advisory</h3>
-              <p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Management reporting, tax planning
-                and practical financial guidance.</p><span
-                class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">Learn more<svg
-                  aria-hidden="true" class="lucide lucide-arrow-right transition-transform group-hover:translate-x-1"
-                  fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12h14"></path>
-                  <path d="m12 5 7 7-7 7"></path>
-                </svg></span>
-            </a></div>
+          <div class="mt-10 space-y-12"><div><h3 class="font-display text-2xl font-bold text-ink border-b border-border pb-3" data-reveal="">Bookkeeping</h3><div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:0ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Bookkeeping</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Keep your books accurate and up to date.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:60ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Monthly Bookkeeping</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Ongoing upkeep so your numbers stay current and easy to read every month.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:120ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Cleanup Projects</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Fix backlogged or messy books.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:180ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Bookkeeping Diagnostic Review</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">We check your QuickBooks file for errors and give you a clear plan and quote before any work starts.</p></div></div></div><div><h3 class="font-display text-2xl font-bold text-ink border-b border-border pb-3" data-reveal="">Tax &amp; Payroll</h3><div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:240ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Tax Preparation</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Accurate returns, filed on time.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:300ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Payroll Processing</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Pay your team correctly and on schedule.</p></div></div></div><div><h3 class="font-display text-2xl font-bold text-ink border-b border-border pb-3" data-reveal="">Reports &amp; Advisory</h3><div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:360ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Financial Reports</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Clear statements that show where you stand.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:420ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Monthly Financial Review &amp; Advisory</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">We go over your financials with you each month and talk through your next steps.</p></div></div></div><div><h3 class="font-display text-2xl font-bold text-ink border-b border-border pb-3" data-reveal="">Setup &amp; Support</h3><div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:480ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">QuickBooks Setup &amp; Training</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Set up the software and learn to use it.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:540ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Inventory Count Support</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Help with counts and tying them to your records.</p></div><div class="flex flex-col rounded-xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md card-hover" data-reveal="" style="--d:600ms"><span class="flex h-11 w-11 items-center justify-center rounded-lg bg-accent text-accent-foreground"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></span><h4 class="mt-4 font-display text-lg font-bold text-ink">Notarial Services</h4><p class="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">Notary services for your documents.</p></div></div></div></div>
         </div>
       </section>
       <section class="border-y border-border bg-secondary py-16 md:py-20">
@@ -432,9 +320,8 @@
                 </path>
                 <path d="m9 12 2 2 4-4"></path>
               </svg>
-              <h3 class="mt-3 font-semibold text-ink">CPA-led, deadline-driven</h3>
-              <p class="mt-2 text-sm leading-relaxed text-muted-foreground">Every account is supervised by a licensed
-                CPA, and every BIR return is filed ahead of its deadline.</p>
+              <h3 class="mt-3 font-semibold text-ink">Reviewed and deadline-driven</h3>
+              <p class="mt-2 text-sm leading-relaxed text-muted-foreground">Every account is reviewed by a senior accountant, and every tax return is filed ahead of its deadline.</p>
             </div>
             <div class="rounded-xl border border-border bg-card p-6 shadow-sm card-hover" data-reveal=""
               style="--d:80ms"><svg aria-hidden="true" class="lucide lucide-clipboard-check text-primary" fill="none"
@@ -501,8 +388,7 @@
             <li class="relative rounded-xl border border-border bg-card p-6 shadow-sm card-hover" data-reveal=""
               style="--d:160ms"><span class="font-display text-3xl font-bold text-gold">03</span>
               <h3 class="mt-3 font-semibold text-ink">Books on autopilot</h3>
-              <p class="mt-2 text-sm leading-relaxed text-muted-foreground">Each month we record, reconcile and file —
-                BIR returns included — while you run the business.</p>
+              <p class="mt-2 text-sm leading-relaxed text-muted-foreground">Each month we record and reconcile your books and keep your tax filings on track, while you run the business.</p>
             </li>
             <li class="relative rounded-xl border border-border bg-card p-6 shadow-sm card-hover" data-reveal=""
               style="--d:240ms"><span class="font-display text-3xl font-bold text-gold">04</span>
@@ -513,63 +399,8 @@
           </ol>
         </div>
       </section>
-      <section class="border-y border-border bg-accent py-14">
-        <div class="container-site max-w-3xl text-center">
-          <p class="font-display text-xl italic leading-relaxed text-accent-foreground md:text-2xl">“<!-- -->They took
-            bookkeeping completely off my plate. I get my financial statements on time every month, and filing season is
-            no longer panic season.<!-- -->”</p>
-          <p class="mt-5 text-sm font-semibold text-accent-foreground">Maria Santos</p>
-          <p class="text-xs text-accent-foreground/80">Owner, Santos Home Bakery — Quezon City</p><a
-            class="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary link-underline"
-            href="testimonials.html">Read more client stories <svg aria-hidden="true" class="lucide lucide-arrow-right"
-              fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-              stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12h14"></path>
-              <path d="m12 5 7 7-7 7"></path>
-            </svg></a>
-        </div>
-      </section>
-      <section class="py-16 md:py-20">
-        <div class="container-site">
-          <div class="max-w-2xl">
-            <p class="eyebrow">Pricing</p>
-            <h2 class="h-display mt-2 text-3xl font-bold md:text-4xl" data-reveal="">Simple, fixed monthly packages</h2>
-            <p class="mt-4 text-muted-foreground">Transparent pricing based on your transaction volume. Every package
-              includes CPA supervision and on-time BIR filing.</p>
-          </div>
-          <div class="mt-10 grid gap-6 lg:grid-cols-3">
-            <div class="rounded-xl border border-border bg-card p-7 shadow-sm card-hover" data-reveal=""
-              style="--d:0ms">
-              <h3 class="font-display text-xl font-bold text-ink">Essentials</h3>
-              <p class="mt-3"><span class="font-display text-4xl font-bold text-ink">₱5,000</span><span
-                  class="ml-2 text-sm text-muted-foreground">per month</span></p>
-              <p class="mt-2 text-sm text-muted-foreground">Freelancers, professionals and very small businesses</p>
-            </div>
-            <div class="rounded-xl border-2 border-primary bg-card p-7 shadow-md" data-reveal="" style="--d:80ms">
-              <p class="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">Most popular</p>
-              <h3 class="font-display text-xl font-bold text-ink">Growth</h3>
-              <p class="mt-3"><span class="font-display text-4xl font-bold text-ink">₱9,000</span><span
-                  class="ml-2 text-sm text-muted-foreground">per month</span></p>
-              <p class="mt-2 text-sm text-muted-foreground">Established small businesses with regular sales</p>
-            </div>
-            <div class="rounded-xl border border-border bg-card p-7 shadow-sm card-hover" data-reveal=""
-              style="--d:160ms">
-              <h3 class="font-display text-xl font-bold text-ink">Scale</h3>
-              <p class="mt-3"><span class="font-display text-4xl font-bold text-ink">₱16,000</span><span
-                  class="ml-2 text-sm text-muted-foreground">per month</span></p>
-              <p class="mt-2 text-sm text-muted-foreground">Growing companies that want a full finance back office</p>
-            </div>
-          </div>
-          <div class="mt-8"><a
-              class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary link-underline"
-              href="pricing.html">See full package details <svg aria-hidden="true" class="lucide lucide-arrow-right"
-                fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 12h14"></path>
-                <path d="m12 5 7 7-7 7"></path>
-              </svg></a></div>
-        </div>
-      </section>
+      
+      
       <section class="border-t border-border bg-primary">
         <div
           class="container-site flex flex-col items-start gap-6 py-16 md:flex-row md:items-center md:justify-between">
@@ -589,11 +420,9 @@
     <footer class="border-t border-border bg-secondary" data-tsd-source="/src/components/site-footer.tsx:16:5">
       <div class="container-site grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <div class="flex items-center gap-3"><span
-              class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary font-display text-lg font-bold text-primary-foreground">B</span><span
-              class="font-display text-base font-bold leading-tight text-ink">Bookkeeping and Tax Services</span></div>
-          <p class="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">CPA-led bookkeeping, tax, payroll and
-            advisory services for Philippine businesses and professionals.</p>
+          <div class="flex items-center gap-3"><span class="flex h-10 items-center justify-center rounded-lg bg-[#1f2342] px-2 transition-transform duration-300 group-hover:rotate-3"><img src="img/logo-mark.png" alt="" class="h-6 w-auto"></span><span
+              class="font-display text-base font-bold leading-tight text-ink">AC Ledger Solutions</span></div>
+          <p class="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">Bookkeeping, tax, payroll and advisory services for small businesses and professionals.</p>
         </div>
         <div>
           <h3 class="text-sm font-semibold uppercase tracking-wider text-ink">Services</h3>
@@ -632,7 +461,7 @@
                   d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
                 </path>
                 <circle cx="12" cy="10" r="3"></circle>
-              </svg><span>Unit 1204, Pacific Star Building, Makati Avenue, Makati City, Metro Manila</span></li>
+              </svg><span>AC Ledger Solutions LLC, Melrose Park, Illinois</span></li>
             <li class="flex items-start gap-2.5"><svg aria-hidden="true"
                 class="lucide lucide-phone mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor"
                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"
@@ -640,28 +469,28 @@
                 <path
                   d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
                 </path>
-              </svg><span>(02) 8123-4567<!-- --> · <!-- -->+63 917 123 4567</span></li>
+              </svg><span><a href="tel:+17736983538">(773) 698-3538</a></span></li>
             <li class="flex items-start gap-2.5"><svg aria-hidden="true"
                 class="lucide lucide-mail mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor"
                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
                 <rect height="16" rx="2" width="20" x="2" y="4"></rect>
-              </svg><span>hello@bookkeepingandtaxservices.ph</span></li>
+              </svg><span><a href="https://www.acledgers.com">www.acledgers.com</a></span></li>
             <li class="flex items-start gap-2.5"><svg aria-hidden="true"
                 class="lucide lucide-clock mt-0.5 shrink-0 text-primary" fill="none" height="16" stroke="currentColor"
                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="10"></circle>
                 <path d="M12 6v6l4 2"></path>
-              </svg><span>Monday to Friday, 9:00 AM – 6:00 PM</span></li>
+              </svg><span>Call to schedule a consultation</span></li>
           </ul>
         </div>
       </div>
       <div class="border-t border-border">
         <div
           class="container-site flex flex-col gap-2 py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Bookkeeping and Tax Services. All rights reserved.</p>
+          <p>© 2026 AC Ledger Solutions LLC. All rights reserved.</p>
           <p>Information on this site is for general guidance only and is not a substitute for professional advice on
             your specific situation.</p>
         </div>
