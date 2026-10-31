@@ -3,8 +3,8 @@
 Plain HTML + CSS + JavaScript, styled with Tailwind CSS v4 (loaded from CDN).
 
 - Open `index.html` in any browser — no build step needed.
-- `css/styles.css` — animations (fade-up hero, scroll reveal, card hover, menu transitions).
-- `js/main.js` — mobile menu, Services dropdown, scroll reveal, number counters, back-to-top, contact form.
+- `css/styles.css` — animations (word-by-word hero headline, drifting hero glow, scroll reveal, card/icon hover, button shine, parallax images, scroll progress bar, menu transitions). Respects `prefers-reduced-motion`.
+- `js/main.js` — mobile menu, Services dropdown, auto scroll-reveal on every page, hero headline split, parallax, scroll progress, number counters, back-to-top, contact form.
 - Brand colors/fonts live in the `<style type="text/tailwindcss">` block of each page.
 - To host: upload the whole folder to any static host (Netlify, GitHub Pages, cPanel, etc.).
 
